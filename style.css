@@ -54,9 +54,38 @@
     font-size: 1.5rem;
     padding-right: 1rem;
 }
-#nav-toggle :checked + .sidebar {
+
+#nav-toggle:checked + .sidebar{
     width: 70px;
-    }
+}
+
+
+#nav-toggle:checked + .sidebar .sidebar-brand ,
+#nav-toggle:checked + .sidebar li{
+    padding-left: 1rem;
+    text-align: center;
+}
+#nav-toggle:checked + .sidebar li a{
+    padding-left: 0rem;
+}
+
+#nav-toggle:checked + .sidebar li a span{
+    padding-right: 1rem;
+}
+
+#nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
+#nav-toggle:checked + .sidebar li a span:last-child{
+    display: none;
+}
+
+#nav-toggle:checked ~ .main-content{
+    margin-left: 70px;
+}
+
+#nav-toggle:checked ~ .main-content header{
+    width: calc(100%-70px);
+}
+
     
 .main-content {
     margin-left: 345px;
@@ -71,6 +100,7 @@ header{
    left: 345px;
    top: 0;
    z-index: 100;
+   
   
 }
 #nav-toggle{
