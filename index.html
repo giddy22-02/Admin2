@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="checkbox" id="nav-toggle">
     <div class="sidebar">
         <div class="sidebar-brand">
             <h2><span class="lab la-accusoft "></span> Gid Hub </h2>
@@ -123,45 +124,125 @@
                        <div class="card-header">
                            <h3>
                                Recent Projects
+                          </h3>
                                <button>See all <span class="las la-arrow-right">
                                </span></button>
-                           </h3>
+                           
                        </div> 
                        <div class="card-body">
-                           <table width ="100%" >
-                               <thead>
-                                   <tr>
-                                       <td>Project Title</td>
-                                       <td>Department</td>
-                                       <td>Status</td>
-                                   </tr>
-                               </thead>
-                               <tbody>
-                                   <tr>
-                                       <td>UI/UX Design</td>
-                                       <td>UI Team</td>
-                                       <td>
-                                           <span class="status"></span>
-                                           review
-                                       </td>
-                                   </tr>
-                                   <tr>
-                                       <td>Web Development</td>
-                                       <td>Frontend</td>
-                                        <td><span class="status pink"></span>
-                                        in progress
+                           <div class="table-responsive">
+                            <table width ="100%" >
+                                <thead>
+                                    <tr>
+                                        <td>Project Title</td>
+                                        <td>Department</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UI/UX Design</td>
+                                        <td>UI Team</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            Review
                                         </td>
-                                      
-                                   </tr>
-                                   <tr>
-                                    <td>Ushop App</td>
-                                    <td>mobile Team</td>
-                                    <td><span class="status orange"></span>
-                                    pending
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            In progress
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                     <td>Ushop App</td>
+                                     <td>Mobile Team</td>
+                                     <td>
+                                         <span class="status orange"></span>
+                                         Pending
+                                     </td>
+                                    </tr>
+                                    <tr>
+                                     <td>UI/UX Design</td>
+                                     <td>UI Team</td>
+                                     <td>
+                                         <span class="status purple"></span>
+                                         Review
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>Web Development</td>
+                                     <td>Frontend</td>
+                                     <td>
+                                         <span class="status pink"></span>
+                                         In progress
+                                     </td>
+                                    
+                                 </tr>
+                                 <tr>
+                                  <td>Ushop App</td>
+                                  <td>Mobile Team</td>
+                                  <td>
+                                      <span class="status orange"></span>
+                                      Pending
+                                  </td>
+                                 </tr>
+                                 <tr>
+                                    <td>UI/UX Design</td>
+                                    <td>UI Team</td>
+                                    <td>
+                                        <span class="status purple"></span>
+                                        Review
                                     </td>
-                                   </tr>
-                               </tbody>
-                           </table>
+                                </tr>
+                                <tr>
+                                    <td>Web Development</td>
+                                    <td>Frontend</td>
+                                    <td>
+                                        <span class="status pink"></span>
+                                        In progress
+                                    </td>
+                                   
+                                </tr>
+                                <tr>
+                                 <td>Ushop App</td>
+                                 <td>Mobile Team</td>
+                                 <td>
+                                     <span class="status orange"></span>
+                                     Pending
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td>UI/UX Design</td>
+                                 <td>UI Team</td>
+                                 <td>
+                                     <span class="status purple"></span>
+                                     Review
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td>Web Development</td>
+                                 <td>Frontend</td>
+                                 <td>
+                                     <span class="status pink"></span>
+                                     In progress
+                                 </td>
+                                
+                             </tr>
+                             <tr>
+                              <td>Ushop App</td>
+                              <td>Mobile Team</td>
+                              <td>
+                                  <span class="status orange"></span>
+                                  Pending
+                              </td>
+                             </tr>
+                                </tbody>
+                            </table>
+                           </div>
                        </div>
                     </div>
 
@@ -171,13 +252,14 @@
                         <div class="card-header">
                             <h3>
                                 New Customer
-                                <button>See all <span class="las la-arrow-right">
-                                </span></button>
                             </h3>
+                            <button>See all <span class="las la-arrow-right">
+                            </span></button>
                         </div> 
                         <div class="card-body">
                             <div class="customer">
-                                <div>
+                                
+                                <div class="info" >
                                     <img src="Gideon.jpeg" 
                                     width="40px" height="40px" alt="">
                                     <div>  
@@ -185,14 +267,15 @@
                                         <small>CEO Excerpt</small>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact" >
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
                                 </div>
                             </div>
                             <div class="customer">
-                                <div>
+                                
+                                <div class="info" >
                                     <img src="Gideon.jpeg" 
                                     width="40px" height="40px" alt="">
                                     <div>  
@@ -200,22 +283,87 @@
                                         <small>CEO Excerpt</small>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact" >
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
                                 </div>
                             </div>
                             <div class="customer">
-                                <div>
+                                
+                                <div class="info" >
                                     <img src="Gideon.jpeg" 
                                     width="40px" height="40px" alt="">
                                     <div>  
                                         <h4>Gideon Kiplangat</h4>
-                                        <small>CEO Expert</small>
+                                        <small>CEO Excerpt</small>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact" >
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                
+                                <div class="info" >
+                                    <img src="Gideon.jpeg" 
+                                    width="40px" height="40px" alt="">
+                                    <div>  
+                                        <h4>Gideon Kiplangat</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact" >
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                
+                                <div class="info" >
+                                    <img src="Gideon.jpeg" 
+                                    width="40px" height="40px" alt="">
+                                    <div>  
+                                        <h4>Gideon Kiplangat</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact" >
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                
+                                <div class="info" >
+                                    <img src="Gideon.jpeg" 
+                                    width="40px" height="40px" alt="">
+                                    <div>  
+                                        <h4>Gideon Kiplangat</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact" >
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                
+                                <div class="info" >
+                                    <img src="Gideon.jpeg" 
+                                    width="40px" height="40px" alt="">
+                                    <div>  
+                                        <h4>Gideon Kiplangat</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact" >
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
